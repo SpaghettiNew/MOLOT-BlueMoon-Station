@@ -78,3 +78,12 @@
 	user.gib()
 	suiciding = FALSE
 	return MANUAL_SUICIDE
+
+/obj/item/pool/pool_noodle/red
+	color = "#ff4c4c"
+
+/obj/item/pool/pool_noodle/blue
+	color = "#3232ff"
+
+/obj/item/pool/pool_noodle/yellow
+	color = "#ffff66"
