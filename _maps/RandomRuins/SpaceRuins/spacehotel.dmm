@@ -84,7 +84,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/unpowered/no_grav)
 "hh" = (
-/obj/item/toy/poolnoodle/blue,
+/obj/item/pool/pool_noodle/blue,
 /turf/open/pool,
 /area/ruin/space/has_grav/bluemoon/hotel/pool)
 "ip" = (
@@ -662,7 +662,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/item/toy/poolnoodle/yellow,
+/obj/item/pool/pool_noodle/yellow,
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/bluemoon/hotel/pool)
 "qw" = (
@@ -2077,7 +2077,7 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/bluemoon/hotel/guestroom/room_6)
 "BN" = (
-/obj/item/toy/poolnoodle/yellow,
+/obj/item/pool/pool_noodle/yellow,
 /turf/open/pool,
 /area/ruin/space/has_grav/bluemoon/hotel/pool)
 "BS" = (
@@ -3370,7 +3370,7 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/ruin/space/has_grav/bluemoon/hotel/pool)
 "LQ" = (
-/obj/item/toy/poolnoodle/red,
+/obj/item/pool/pool_noodle/red,
 /turf/open/pool,
 /area/ruin/space/has_grav/bluemoon/hotel/pool)
 "LX" = (
@@ -3566,7 +3566,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/item/toy/poolnoodle/blue,
+/obj/item/pool/pool_noodle/blue,
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/bluemoon/hotel/pool)
 "NA" = (
