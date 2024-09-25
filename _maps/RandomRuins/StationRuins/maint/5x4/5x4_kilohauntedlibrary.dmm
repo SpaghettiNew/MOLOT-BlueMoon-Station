@@ -1,8 +1,5 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
 /obj/machinery/photocopier,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -11,9 +8,6 @@
 /obj/effect/turf_decal/bot_white,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
-/obj/structure/sign/poster/contraband/random{
-	pixel_x = -32
-	},
 /turf/open/floor/plasteel/dark,
 /area/template_noop)
 "b" = (
@@ -78,6 +72,9 @@
 	icon_state = "sofaend_left"
 	},
 /obj/effect/decal/cleanable/blood/old,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
 	},
@@ -94,6 +91,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/ectoplasm,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/template_noop)
 "n" = (
@@ -123,12 +123,6 @@
 	icon_state = "sofacorner"
 	},
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/structure/sign/poster/contraband/random{
-	pixel_y = 32
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
 	},
@@ -136,6 +130,9 @@
 "t" = (
 /obj/structure/chair/sofa{
 	color = "#c45c57"
+	},
+/obj/structure/sign/poster/contraband/random{
+	pixel_y = 32
 	},
 /turf/open/floor/wood,
 /area/template_noop)
@@ -158,6 +155,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/contraband/random{
+	pixel_x = -32
+	},
 /turf/open/floor/plasteel/dark,
 /area/template_noop)
 "Q" = (
