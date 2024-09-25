@@ -36,7 +36,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,

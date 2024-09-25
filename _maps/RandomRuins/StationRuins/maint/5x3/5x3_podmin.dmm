@@ -53,9 +53,11 @@
 	},
 /area/template_noop)
 "O" = (
-/obj/structure/closet/supplypod,
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/spawner/lootdrop/maintenance,
+/obj/structure/closet/syndicate,
+/obj/effect/spawner/lootdrop/syndicate_present,
+/obj/effect/spawner/lootdrop/syndicate_present,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
