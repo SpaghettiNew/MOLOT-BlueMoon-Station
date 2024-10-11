@@ -407,6 +407,12 @@ SUBSYSTEM_DEF(ticker)
 		else
 			stack_trace("[S] [S.type] found in start landmarks list, which isn't a start landmark!")
 
+	for(var/ii in GLOB.stationroom_landmarks)
+		var/obj/effect/landmark/stationroom/SS = ii
+		if(istype(SS))							//we can not runtime here. not in this important of a proc.
+			SS.after_round_start()
+		else
+			stack_trace("[SS] [SS.type] found in start landmarks list, which isn't a start landmark!")
 
 //These callbacks will fire after roundstart key transfer
 /datum/controller/subsystem/ticker/proc/OnRoundstart(datum/callback/cb)
