@@ -512,6 +512,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	var/list/template_names = list()
 	/// Whether or not we can choose templates that have already been chosen
 	var/unique = FALSE
+	var/late_load = FALSE
 	layer = BULLET_HOLE_LAYER
 	plane = ABOVE_WALL_PLANE
 
@@ -683,13 +684,11 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 /obj/effect/landmark/stationroom/space/forgottenship
 	template_names = list("SCSBC-14" = 3)
 	icon = 'icons/rooms/Lavaland/Mining.dmi'
+	late_load = TRUE
 
-/obj/effect/landmark/stationroom/proc/after_round_start()
-
-/obj/effect/landmark/stationroom/space/forgottenship/after_round_start()
+/obj/effect/landmark/stationroom/space/forgottenship/load()
 	if(GLOB.master_mode == "Extended")
-		template_names = "SCSBC-13"
+		template_names = list("SCSBC-13" = 3)
 	else
-		template_names = "SCSBC-12"
-	load()
+		template_names = list("SCSBC-12" = 3)
 	. = ..()
