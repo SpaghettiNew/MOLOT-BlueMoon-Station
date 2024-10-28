@@ -39,8 +39,7 @@ SUBSYSTEM_DEF(traumas)
 						"mimes" = strings(PHOBIA_FILE, "mimes"),
 						"cats" = strings(PHOBIA_FILE, "cats"),
 						"syndicate"= strings(PHOBIA_FILE, "syndicate"),
-						"eye" = strings(PHOBIA_FILE, "eye"),
-						"ocky icky" = strings(PHOBIA_FILE, "ocky icky")
+						"eye" = strings(PHOBIA_FILE, "eye")
 						)
 
 	phobia_mobs = list("spiders"  = typecacheof(list(/mob/living/simple_animal/hostile/poison/giant_spider)),

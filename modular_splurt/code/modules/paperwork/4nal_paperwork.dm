@@ -1,6 +1,6 @@
 /obj/item/paper/fluff/instaloss_regret
 	name = "Semen and femcum stained note"
-	info = {""<b>〇〇〇—3rd—〇〇〇〇</b>
+	default_raw_text = {""<b>〇〇〇—3rd—〇〇〇〇</b>
 	I finally got all the materials together, had to steal most of them from that witch everyone loves, but I did. Today's the day that I perform my first summoning. I think I will go for a low-class cubus, probably of the suc variety, after all a sexy, busty lady such as I can't be tempted by a lowly whore!
 <br><br>
 <b>〇〇〇—7th—〇〇〇〇</b>
@@ -19,4 +19,4 @@
 
 /obj/item/paper/fluff/fournal_lore
 	name = "Placeholder"
-	info = {"Placeholder until I get time to lore"} 
+	default_raw_text = {"Placeholder until I get time to lore"}

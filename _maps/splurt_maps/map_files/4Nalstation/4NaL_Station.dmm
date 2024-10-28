@@ -2660,7 +2660,7 @@
 	dir = 6
 	},
 /obj/item/paper{
-	info = "Tired of being pulled into the SM when it's going critical? Try our new Emergency Blast Off Doors (EBOD)! With EBOD your days of sucking off this mortal coil are over! (We are not resposible for gasses flooding the engine chamber and killing all within, do not use EBOD under the influence, or while driving.";
+	default_raw_text = "Tired of being pulled into the SM when it's going critical? Try our new Emergency Blast Off Doors (EBOD)! With EBOD your days of sucking off this mortal coil are over! (We are not resposible for gasses flooding the engine chamber and killing all within, do not use EBOD under the influence, or while driving.";
 	name = "Pressure door info"
 	},
 /turf/open/floor/plasteel/dark,
@@ -29085,7 +29085,7 @@
 /obj/structure/table/reinforced,
 /obj/item/stack/spacecash/c100,
 /obj/item/paper/fluff{
-	info = "<b>Renovation Notice</b><br><br>The bar layout for the station is very old. We've decided to give it a facelift after our partnership with IKEA Intergalactic?.</li><li>We added some sweet retro arcade machines and much more seating area. We removed the stage since it hasn't ever been used.</li><li>You can run this place like a restaurant now that you have tables. Go whip up a menu with the Chef. You have a condiments table and your Requests Console has been moved so a noticeboard can be placed there. Take tickets from customers and pin them on the noticeboard for the Chef.</li><li><b>We hope you like the new bar!</ b>";
+	default_raw_text = "<b>Renovation Notice</b><br><br>The bar layout for the station is very old. We've decided to give it a facelift after our partnership with IKEA Intergalactic?.</li><li>We added some sweet retro arcade machines and much more seating area. We removed the stage since it hasn't ever been used.</li><li>You can run this place like a restaurant now that you have tables. Go whip up a menu with the Chef. You have a condiments table and your Requests Console has been moved so a noticeboard can be placed there. Take tickets from customers and pin them on the noticeboard for the Chef.</li><li><b>We hope you like the new bar!</ b>";
 	name = "Renovation Notice - Bar";
 	pixel_x = -5;
 	pixel_y = 3
