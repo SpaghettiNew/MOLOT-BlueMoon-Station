@@ -1194,7 +1194,7 @@
 /turf/open/floor/plasteel/dark,
 /area/science/robotics/lab)
 "avT" = (
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/industrial,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 9
 	},
@@ -4948,7 +4948,7 @@
 "bMW" = (
 /obj/item/gun/energy/ionrifle,
 /obj/item/gun/energy/temperature/security,
-/obj/item/clothing/suit/armor/laserproof,
+/obj/item/clothing/suit/hooded/ablative,
 /obj/structure/rack,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
@@ -24590,7 +24590,7 @@
 	},
 /area/service/chapel/main)
 "ifi" = (
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/industrial,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 1
 	},
@@ -28097,7 +28097,7 @@
 /turf/open/floor/wood/shadow,
 /area/ruin/powered/ylva)
 "jsq" = (
-/obj/machinery/computer/libraryconsole,
+/obj/machinery/computer/library/checkout,
 /obj/structure/table/wood,
 /obj/machinery/light{
 	dir = 8
@@ -30750,7 +30750,7 @@
 /area/service/bar/atrium)
 "klD" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/arachnid/cocoon,
+/obj/structure/spider/stickyweb/arachnid/cocoon,
 /turf/open/floor/circuit/off,
 /area/maintenance/aft/secondary)
 "klO" = (
@@ -35727,7 +35727,7 @@
 /area/maintenance/aft/upper)
 "lXI" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole/bookmanagement,
+/obj/machinery/computer/library/checkout,
 /obj/machinery/light_switch{
 	pixel_y = 28
 	},
@@ -38539,7 +38539,7 @@
 /turf/open/floor/mineral/titanium/tiled,
 /area/engineering/transit_tube)
 "mWb" = (
-/obj/machinery/suit_storage_unit/ce,
+/obj/machinery/suit_storage_unit/industrial/ce,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 1
 	},
@@ -55293,7 +55293,7 @@
 /area/security/checkpoint/medical)
 "ssN" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/brigdoc/armor,
+/obj/item/clothing/suit/armor/brigdoc,
 /obj/item/clothing/head/helmet/brigdoc,
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27
