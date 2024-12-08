@@ -2,7 +2,6 @@
 	name = "\improper MegaSeed Servitor"
 	desc = "When you need seeds fast!"
 	product_slogans = "ЗДЕСЬ ЖИВУТ СЕМЕНА! GIT YOU SOME!;Лучший выбор семян на станции!;Также в наличии некоторые сорта грибов, больше для экспертов!; Получите сертификат сегодня!;Мы любим растения!;Выращивайте урожай!;Расти, детка, расти!;Ай да сынок!"
-	product_slogans = "We like plants!;Grow some crops!;Grow, baby, growww!;Aw h'yeah son!"
 	icon_state = "seeds"
 	//panel_type = "panel2"
 	light_mask = "seeds-light-mask"
