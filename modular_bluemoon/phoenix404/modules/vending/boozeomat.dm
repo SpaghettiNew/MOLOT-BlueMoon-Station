@@ -47,8 +47,6 @@
 				/obj/item/reagent_containers/food/drinks/soda_cans/synthdrink = 15,
 				/obj/item/reagent_containers/food/drinks/soda_cans/sodawater = 15,
 				/obj/item/reagent_containers/food/drinks/soda_cans/sol_dry = 8,
-				/obj/item/reagent_containers/food/drinks/ice = 10,
-				/obj/item/reagent_containers/food/drinks/flask = 3,
 				/obj/item/reagent_containers/food/drinks/kvass = 5, // BLUEMOON ADDED - kvass
 			),
 		),
@@ -59,6 +57,8 @@
 			"products" = list(
 				/obj/item/reagent_containers/food/drinks/drinkingglass = 30,
 				/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass = 12,
+				/obj/item/reagent_containers/food/drinks/ice = 10,
+				/obj/item/reagent_containers/food/drinks/flask = 3,
 			),
 		),
 	)
