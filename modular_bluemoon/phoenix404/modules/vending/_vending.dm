@@ -964,7 +964,14 @@ GLOBAL_LIST_EMPTY(vending_products)
 /obj/machinery/vending/ui_data(mob/user)
 	. = list()
 	var/obj/item/card/id/C
-	if(isliving(user))
+	if(iscyborg(user) || isAI(user) || isdrone(user))
+		var/datum/bank_account/Civ = SSeconomy.get_dep_account(ACCOUNT_SCI)
+		.["user"] = list()
+		.["user"]["name"] = user.name
+		.["user"]["cash"] = Civ.account_balance
+		.["user"]["job"] = "Silicon"
+		.["user"]["department"] = Civ.account_holder
+	else if(isliving(user))
 		var/mob/living/L = user
 		C = L.get_idcard(TRUE)
 	if(C?.registered_account)
@@ -1053,6 +1060,9 @@ GLOBAL_LIST_EMPTY(vending_products)
 	if(!can_vend(usr))
 		return
 	vend_ready = FALSE //One thing at a time!!
+	var/silicon_customer = FALSE
+	if(iscyborg(usr) || isAI(usr) || isdrone(usr))
+		silicon_customer = TRUE
 	var/datum/data/vending_product/R = locate(params["ref"])
 	var/list/record_to_check = product_records + coin_records
 	if(extended_inventory)
@@ -1078,37 +1088,52 @@ GLOBAL_LIST_EMPTY(vending_products)
 		return
 	if(onstation)
 		var/obj/item/card/id/C
-		if(isliving(usr))
-			var/mob/living/L = usr
-			C = L.get_idcard(TRUE)
-		if(!C)
-			say("No card found.")
-			flick(icon_deny,src)
-			vend_ready = TRUE
-			return
-		else if (!C.registered_account)
-			say("No account found.")
-			flick(icon_deny,src)
-			vend_ready = TRUE
-			return
-		else if(!C.registered_account.account_job)
-			say("Departmental accounts have been blacklisted from personal expenses due to embezzlement.")
-			flick(icon_deny, src)
-			vend_ready = TRUE
-			return
+		var/datum/bank_account/account
+		if(!silicon_customer)
+			if(isliving(usr))
+				var/mob/living/L = usr
+				C = L.get_idcard(TRUE)
+			if(!C)
+				say("No card found.")
+				flick(icon_deny,src)
+				vend_ready = TRUE
+				return
+			else if (!C.registered_account)
+				say("No account found.")
+				flick(icon_deny,src)
+				vend_ready = TRUE
+				return
+			else if(!C.registered_account.account_job)
+				say("Departmental accounts have been blacklisted from personal expenses due to embezzlement.")
+				flick(icon_deny, src)
+				vend_ready = TRUE
+				return
 		//else if(age_restrictions && R.age_restricted && (!C.registered_age || C.registered_age < AGE_MINOR))
 		//	say("You are not of legal age to purchase [R.name].")
 		//	flick(icon_deny,src)
 		//	vend_ready = TRUE
 		//	return
-		var/datum/bank_account/account = C.registered_account
-		if(account.account_job && account.account_job.paycheck_department == payment_department)
+			account = C.registered_account
+		else
+			account = SSeconomy.get_dep_account(ACCOUNT_SCI)
+
+		if(account?.account_job && account?.account_job.paycheck_department == payment_department)
 			price_to_use = max(round(price_to_use * DEPARTMENT_DISCOUNT), 1) //No longer free, but signifigantly cheaper.
 		if(coin_records.Find(R) || hidden_records.Find(R))
 			price_to_use = R.custom_premium_price ? R.custom_premium_price : extra_price
 		if(LAZYLEN(R.returned_products))
 			price_to_use = 0 //returned items are free
-		if(price_to_use && !account.adjust_money(-price_to_use, "Vending: [R.name]"))
+
+		if(price_to_use && silicon_customer)
+			if(!account.adjust_money(-price_to_use))
+				say("You do not possess the funds to purchase [R.name].")
+				flick(icon_deny,src)
+				vend_ready = TRUE
+				return
+			var/datum/bank_account/D = SSeconomy.get_dep_account(payment_department)
+			if(D)
+				D.adjust_money(price_to_use)
+		else if(price_to_use && !account?.adjust_money(-price_to_use, "Vending: [R.name]"))
 			say("You do not possess the funds to purchase [R.name].")
 			flick(icon_deny,src)
 			vend_ready = TRUE
@@ -1118,7 +1143,7 @@ GLOBAL_LIST_EMPTY(vending_products)
 			D.adjust_money(price_to_use)
 			SSblackbox.record_feedback("amount", "vending_spent", price_to_use)
 			//SSeconomy.track_purchase(account, price_to_use, name)
-			log_econ("[price_to_use] credits were inserted into [src] by [account.account_holder] to buy [R].")
+			log_econ("[price_to_use] credits were inserted into [src] by [account?.account_holder] to buy [R].")
 	if(last_shopper != REF(usr) || purchase_message_cooldown < world.time)
 		say("Thank you for shopping with [src]!")
 		purchase_message_cooldown = world.time + 5 SECONDS
@@ -1357,7 +1382,7 @@ GLOBAL_LIST_EMPTY(vending_products)
 		return
 	switch(action)
 		if("dispense")
-			if(isliving(usr))
+			if(isliving(usr) || iscyborg(usr) || isAI(usr) || isdrone(usr))
 				vend_act(usr, params["item"])
 			vend_ready = TRUE
 			return TRUE
