@@ -271,13 +271,15 @@
 		/obj/item/clothing/mask/balaclava/breath/redscarf/yellowscarf = 4,
 		/obj/item/radio/headset/headset_cargo = 3,
 		/obj/item/mailmat_deployer = 3,
-		/obj/item/clothing/under/suit/scarface = 2,
 	)
 	premium = list(
 		/obj/item/clothing/head/mailman = 1,
 		/obj/item/clothing/under/misc/mailman = 1,
 		/obj/item/clothing/under/rank/cargo/miner = 3,
 		/obj/item/clothing/under/rank/cargo/miner/lavaland = 3,
+	)
+	contraband = list(
+		/obj/item/clothing/under/suit/scarface = 2,
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/cargo_wardrobe
 	payment_department = ACCOUNT_CAR
@@ -371,6 +373,8 @@
 		/obj/item/clothing/under/rank/civilian/hydroponics = 5,
 		/obj/item/clothing/under/rank/civilian/hydroponics/skirt = 5,
 		/obj/item/clothing/mask/bandana = 4,
+	)
+	contraband = list(
 		/obj/item/clothing/under/suit/scarface = 2,
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/hydro_wardrobe
