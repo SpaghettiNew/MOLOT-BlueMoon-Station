@@ -37,6 +37,7 @@
 			"products" = list(
 				/obj/item/camera = 3,
 				/obj/item/camera_film = 5,
+				/obj/item/toy/crayon/spraycan = 6,
 				/obj/item/cardpack/series_one = 100,
 				/obj/item/dyespray = 3,
 				/obj/item/razor = 3,
