@@ -76,6 +76,22 @@
 		/obj/item/clothing/under/rank/security/officer/util = 5,
 		/obj/item/clothing/under/rank/security/officer/blueshirt/seccorp = 5,
 		/obj/item/clothing/neck/cloak/security = 6,
+		/obj/item/clothing/head/beret/sec/peacekeeper/cap = 5,
+		/obj/item/clothing/head/beret/sec/peacekeeper = 5,
+		/obj/item/clothing/mask/balaclava/breath = 5,
+		/obj/item/clothing/mask/gas/syndicate/ds/wide = 3,
+		/obj/item/clothing/mask/gas/syndicate/ds/mouth = 3,
+		/obj/item/clothing/mask/gas/syndicate/ds/coif = 2,
+		/obj/item/clothing/under/rank/security/officer/peacekeeper =5,
+		/obj/item/clothing/under/rank/security/officer/metrocop = 2,
+		/obj/item/clothing/under/rank/security/skirt/slut = 5,
+		/obj/item/clothing/under/rank/security/skirt/slut/pink = 5,
+		/obj/item/clothing/under/rank/security/stripper = 5,
+		/obj/item/clothing/suit/hooded/corpus/s = 5,
+		/obj/item/clothing/head/utilcover = 5,
+		/obj/item/clothing/under/utility/green = 5,
+		/obj/item/clothing/under/utility/navy = 5,
+		/obj/item/clothing/under/utility/tan = 5
 	)
 	contraband = list(
 		/obj/item/clothing/under/rank/security/stripper = 5,
@@ -90,7 +106,7 @@
 		/obj/item/clothing/under/syndicate/rus_army = 3,
 		/obj/item/clothing/mask/gas/soviet = 3,
 		/obj/item/clothing/mask/gas/german = 3,
-		/obj/item/clothing/under/syndicate/combat = 2
+		/obj/item/clothing/under/syndicate/combat = 2,
 	)
 	premium = list(
 		/obj/item/clothing/under/rank/security/officer/formal = 5,
@@ -104,7 +120,13 @@
 		/obj/item/storage/backpack/rucksack/navy = 1,
 		/obj/item/storage/backpack/rucksack/green = 1,
 		/obj/item/storage/backpack/rucksack/tan = 1,
-		/obj/item/clothing/head/beret/sec/navyofficer = 5
+		/obj/item/clothing/head/beret/sec/navyofficer = 5,
+		/obj/item/clothing/gloves/latexsleeves/security = 5,
+		/obj/item/clothing/shoes/jackboots/tall = 5,
+		/obj/item/clothing/shoes/jackboots/alliance = 5,
+		/obj/item/clothing/under/custom/mw2_russian_para = 5,
+		/obj/item/clothing/under/bm/sigu = 5,
+		/obj/item/clothing/head/beret/sec/bitch = 5,
 		)
 	refill_canister = /obj/item/vending_refill/wardrobe/sec_wardrobe
 	payment_department = ACCOUNT_SEC
@@ -185,6 +207,8 @@
 		/obj/item/clothing/under/rank/engineering/engineer/hazard = 5,
 		/obj/item/clothing/under/rank/engineering/engineer/hazard/green = 5,
 		/obj/item/clothing/under/rank/engineering/engineer/hazard/white = 5,
+		/obj/item/clothing/under/radkini = 2,
+		/obj/item/clothing/mask/gas/radmask = 2,
 		/obj/item/clothing/suit/toggle/labcoat/depjacket/eng = 5,
 		/obj/item/clothing/under/rank/engineering/engineer/util = 5,
 		/obj/item/clothing/under/rank/engineering/engineer/mechanic = 5,
@@ -246,6 +270,8 @@
 		/obj/item/clothing/head/soft = 3,
 		/obj/item/clothing/mask/balaclava/breath/redscarf/yellowscarf = 4,
 		/obj/item/radio/headset/headset_cargo = 3,
+		/obj/item/mailmat_deployer = 3,
+		/obj/item/clothing/under/suit/scarface = 2,
 	)
 	premium = list(
 		/obj/item/clothing/head/mailman = 1,
@@ -344,7 +370,8 @@
 		/obj/item/clothing/suit/apron/overalls = 5,
 		/obj/item/clothing/under/rank/civilian/hydroponics = 5,
 		/obj/item/clothing/under/rank/civilian/hydroponics/skirt = 5,
-		/obj/item/clothing/mask/bandana = 4
+		/obj/item/clothing/mask/bandana = 4,
+		/obj/item/clothing/under/suit/scarface = 2,
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/hydro_wardrobe
 	payment_department = ACCOUNT_SRV
@@ -377,6 +404,11 @@
 		/obj/item/storage/backpack/satchel/explorer = 1,
 		/obj/item/storage/backpack/explorer = 1,
 		/obj/item/storage/bag/books = 1,
+		/obj/item/clothing/suit/fakearmor/press = 1,
+		/obj/item/clothing/head/press_helmet = 1,
+	)
+	premium = list(
+		/obj/item/card/id/heresy = 5,
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/curator_wardrobe
 	payment_department = ACCOUNT_SRV
@@ -401,6 +433,7 @@
 		/obj/item/clothing/accessory/waistcoat = 3,
 		/obj/item/clothing/suit/apron/purple_bartender = 2,
 		/obj/item/clothing/head/soft/black = 4,
+		/obj/item/clothing/neck/petcollar/handmade = 3,
 		/obj/item/clothing/shoes/sneakers/black = 4,
 		/obj/item/reagent_containers/rag = 4,
 		/obj/item/storage/box/beanbag = 1,
@@ -438,6 +471,9 @@
 		/obj/item/reagent_containers/rag = 3,
 		/obj/item/book/granter/crafting_recipe/cooking_sweets_101 = 2,
 		/obj/item/book/granter/crafting_recipe/coldcooking = 2,
+	)
+	contraband = list(
+		/obj/item/card/id/muck = 2,
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/chef_wardrobe
 	payment_department = ACCOUNT_SRV
@@ -512,6 +548,13 @@
 		/obj/item/clothing/suit/toggle/lawyer/black = 3,
 		/obj/item/clothing/shoes/laceup = 3,
 		/obj/item/clothing/accessory/lawyers_badge = 3,
+		/obj/item/clothing/under/rank/civilian/lawyer/galaxy_blue = 3,
+		/obj/item/clothing/under/rank/civilian/lawyer/galaxy_red = 3,
+		/obj/item/clothing/under/suit/black_really_collared = 3,
+		/obj/item/clothing/under/suit/black_really_collared/skirt = 3,
+		/obj/item/clothing/under/suit/inferno = 3,
+		/obj/item/clothing/under/suit/inferno/skirt = 3,
+		/obj/item/clothing/under/suit/inferno/beeze = 1,
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/law_wardrobe
 	payment_department = ACCOUNT_SRV
@@ -552,17 +595,23 @@
 		/obj/item/clothing/neck/epitrachelion = 1, //BlueMoon changes,
 		/obj/item/clothing/neck/cloak/bishop = 1, //BlueMoon changes,
 		/obj/item/clothing/neck/cloak/bishopblack= 1, //BlueMoon changes,
+		/obj/item/reagent_containers/glass/mortar/urn = 10,
 	)
 	contraband = list(
 		/obj/item/sign/flag/ravenheart = 3, // Bluemoon edition - Флаг Воронье Сердце,
 		/obj/item/sign/flag/ravenheart/alt = 3, // Bluemoon edition - Флаг-баннер Воронье Сердце,
 		/obj/item/storage/box/raven_box/posters = 3, // Bluemoon edition - Постеры,
+		/obj/item/card/id/agony = 5,
+		/obj/item/choice_beacon/box/creepy_statue_kit = 6,
+		/obj/item/choice_beacon/box/creepy_statue_kit/big = 1,
 	)
 	premium = list(
 		/obj/item/storage/fancy/ringbox/silver = 4, // BLUEMOON ADD - для проведения свадеб,
 		/obj/item/storage/fancy/ringbox = 4, // BLUEMOON ADD - для проведения свадеб,
 		/obj/item/storage/fancy/ringbox/diamond = 4, // BLUEMOON ADD - для проведения свадеб,
 		/obj/item/lighter/black = 1,
+		/obj/item/reagent_containers/censer = 1,
+		/obj/item/choice_beacon/ouija = 1,
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/chap_wardrobe
 	extra_price = PRICE_ALMOST_ONE_GRAND * 1.1
@@ -666,6 +715,7 @@
 		/obj/item/clothing/suit/det_suit/forensicsred/long = 1,
 		/obj/item/clothing/suit/det_suit/forensicsblue = 1,
 		/obj/item/clothing/suit/det_suit/forensicsblue/long = 1,
+		/obj/item/clothing/suit/det_suit/lanyard = 1,
 		/obj/item/clothing/head/fedora = 2,
 		/obj/item/clothing/gloves/color/black = 2,
 		/obj/item/clothing/gloves/color/latex = 2,
@@ -910,3 +960,127 @@
 /*
 #undef MOTHROACH_START_CHANCE
 #undef MAX_MOTHROACH_AMOUNT*/
+
+/obj/machinery/vending/wardrobe/blueshield_wardrobe
+	name = "\improper BlueDrobe"
+	desc = "A vending machine for blueshield and blueshield-related clothing!"
+	icon_state = "commdrobe"
+	icon = 'modular_splurt/icons/obj/objects.dmi'
+	product_slogans = "Защищать и служить!;Чувствуй себя хорошо, сохраняя жизнь людям!;"
+	vend_reply = "Спасибо за использование BlueDrobe!"
+	products = list(
+		/obj/item/clothing/under/rank/blueshield = 2,
+		/obj/item/clothing/under/rank/blueshield/skirt = 2,
+		/obj/item/clothing/under/rank/blueshield/formal = 2,
+		/obj/item/clothing/under/custom/mw2_russian_para = 2,
+		/obj/item/storage/backpack/blueshield = 2,
+		/obj/item/storage/backpack/satchel/blueshield = 2,
+		/obj/item/storage/backpack/duffelbag/blueshield = 2,
+		/obj/item/clothing/shoes/jackboots = 2,
+		/obj/item/clothing/head/soft/blueshield = 2,
+		/obj/item/clothing/head/blueshield = 2,
+		/obj/item/clothing/head/blueshield/formal = 2,
+		/obj/item/clothing/head/blueshield/officercap = 2,
+		/obj/item/clothing/neck/tie/blue = 2,
+		/obj/item/clothing/under/rank/blueshield/formal/skirt = 2,
+		/obj/item/clothing/shoes/jackboots/tall = 2,
+		/obj/item/clothing/shoes/jackboots/tall_default = 2,
+		/obj/item/clothing/suit/armor/vest/bluesheid/spacecoat = 2,
+		/obj/item/clothing/suit/armor/vest/bluesheid/jacket = 2,
+		/obj/item/clothing/under/rank/blueshield/formal/pmc_leader_jumpsuit = 2,
+		/obj/item/clothing/mask/balaclava/pmc_leader_balaclava = 2,
+		/obj/item/clothing/head/HoS/pmc_leader_cap = 2,
+		/obj/item/clothing/head/HoS/pmc_leader_beret = 2,
+		/obj/item/clothing/suit/armor/hos/pmc_leader_armor = 2,
+		/obj/item/clothing/under/syndicate/maid = 2,
+		/obj/item/clothing/under/syndicate/maid_revealing = 2,
+		/obj/item/clothing/gloves/combat/maid = 2,
+		/obj/item/clothing/head/maid/syndicate = 2
+	)
+	refill_canister = /obj/item/vending_refill/wardrobe/blueshield_wardrobe
+	payment_department = ACCOUNT_SEC
+	light_color = COLOR_STRONG_BLUE
+
+/obj/item/vending_refill/wardrobe/blueshield_wardrobe
+	machine_name = "BlueDrobe"
+
+/obj/machinery/vending/wardrobe/bridgeofficer_wardrobe
+	name = "\improper CommDrobe"
+	desc = "A vending machine for bridge officers and officer-related clothing!"
+	icon_state = "commdrobe"
+	icon = 'modular_splurt/icons/obj/objects.dmi'
+	product_slogans = "Почувствуйте себя важным!;Служить!!;Тебе следует быть лучше, щенок!!!"
+	vend_reply = "Спасибо за использование BlueDrobe!"
+	products = list(
+		/obj/item/clothing/under/rank/bridgeofficer = 2,
+		/obj/item/clothing/under/rank/bridgeofficer/skirt = 2,
+		/obj/item/clothing/under/rank/bridgeofficer/formal = 2,
+		/obj/item/clothing/head/bridgeofficer = 2,
+		/obj/item/clothing/head/bridgeofficer/beret = 2,
+		/obj/item/clothing/suit/toggle/brigdesec = 2,
+		/obj/item/storage/backpack = 2,
+		/obj/item/storage/backpack/satchel = 2,
+		/obj/item/storage/backpack/duffelbag = 2,
+		/obj/item/clothing/gloves/color/black = 2,
+		/obj/item/clothing/shoes/sneakers/brown  =2,
+		/obj/item/clothing/shoes/sneakers/black = 2,
+		/obj/item/clothing/shoes/sneakers/blue = 2,
+		/obj/item/clothing/neck/tie/blue = 2,
+		/obj/item/clothing/neck/tie/red = 2,
+		/obj/item/clothing/neck/tie/black =2
+	)
+	refill_canister = /obj/item/vending_refill/wardrobe/blueshield_wardrobe
+	payment_department = ACCOUNT_CIV
+	light_color = COLOR_STRONG_BLUE
+
+/obj/item/vending_refill/wardrobe/blueshield_wardrobe
+	machine_name = "BlueDrobe"
+
+/obj/machinery/vending/wardrobe/hos_wardrobe
+	name = "\improper HOSDrobe"
+	desc = "A vending machine for the head of security and security-related clothing!"
+	icon_state = "secdrobe"
+	product_slogans = "Бей преступников в стиле!;На красном красного не видно!;Вы имеете право быть модным!;Теперь вы можете быть полицейским моды, которым вы всегда хотели быть!"
+	vend_reply = "Спасибо за использование HosDrobe!"
+	products = list(
+		/obj/item/clothing/neck/cloak/hos = 1,
+		/obj/item/clothing/neck/mantle/head_of_security = 1,
+		/obj/item/clothing/neck/cloak/regal_hos = 1,
+		/obj/item/storage/backpack/security = 1,
+		/obj/item/storage/backpack/satchel/sec = 1,
+		/obj/item/storage/backpack/duffelbag/sec = 1,
+		/obj/item/clothing/suit/toggle/armor/hos/hos_formal = 1,
+		/obj/item/clothing/shoes/jackboots = 1,
+		/obj/item/clothing/under/rank/security/head_of_security/parade/female = 1,
+		/obj/item/clothing/under/rank/security/head_of_security/parade = 1,
+		/obj/item/clothing/under/rank/security/officer/blueshirt/seccorp/hoscorp = 1,
+		/obj/item/clothing/under/rank/security/head_of_security/skirt = 1,
+		/obj/item/clothing/under/rank/security/head_of_security/alt = 1,
+		/obj/item/clothing/under/rank/security/head_of_security/alt/skirt = 1,
+		/obj/item/clothing/head/HoS = 1,
+		/obj/item/clothing/glasses/hud/security/sunglasses/eyepatch = 1,
+		/obj/item/clothing/glasses/hud/security/sunglasses/gars/supergars = 1,
+		/obj/item/clothing/under/rank/security/head_of_security/grey = 1,
+		/obj/item/clothing/suit/hooded/wintercoat/hos = 1,
+		/obj/item/clothing/suit/armor/vest/leather = 1,
+		/obj/item/clothing/suit/armor/hos = 1,
+		/obj/item/clothing/under/rank/security/head_of_security/peacekeeper = 1,
+		/obj/item/clothing/head/beret/sec/peacekeeper/hos = 1,
+		/obj/item/clothing/head/HoS/peacekeeper = 1,
+		/obj/item/clothing/suit/armor/hos/peacekeeper = 1, //BlueMoon Add
+		/obj/item/clothing/suit/armor/hos/trenchcoat = 1, //BlueMoon Add
+		/obj/item/clothing/under/rank/blueshield/formal/pmc_leader_jumpsuit = 1, //BlueMoon Add
+		/obj/item/clothing/mask/balaclava/pmc_leader_balaclava = 1, //BlueMoon Add
+		/obj/item/clothing/head/HoS/pmc_leader_cap = 1, //BlueMoon Add
+		/obj/item/clothing/head/HoS/pmc_leader_beret = 1, //BlueMoon Add
+		/obj/item/clothing/suit/armor/hos/pmc_leader_armor = 1, //BlueMoon Add
+		/obj/item/clothing/neck/tie/dread_neck = 1, //BlueMoon Add
+		/obj/item/clothing/suit/armor/hos/dread_armor = 1, //BlueMoon Add
+		/obj/item/clothing/head/HoS/dread_helmet = 1,	//BlueMoon Add
+	)
+	refill_canister = /obj/item/vending_refill/wardrobe/sec_wardrobe
+	payment_department = ACCOUNT_SEC
+	light_color = COLOR_MOSTLY_PURE_RED
+
+/obj/item/vending_refill/wardrobe/hos_wardrobe
+	machine_name = "HOSDrobe"

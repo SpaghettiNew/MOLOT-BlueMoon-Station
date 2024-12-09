@@ -10,6 +10,8 @@
 		/obj/item/clothing/under/rank/engineering/engineer = 4,
 		/obj/item/clothing/shoes/sneakers/orange = 4,
 		/obj/item/clothing/head/hardhat = 4,
+		/obj/item/clothing/under/radkini = 2,
+		/obj/item/clothing/mask/gas/radmask = 2,
 		/obj/item/storage/belt/utility = 4,
 		/obj/item/clothing/glasses/meson/engine = 4,
 		/obj/item/clothing/gloves/color/yellow = 4,

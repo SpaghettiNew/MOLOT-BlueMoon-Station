@@ -23,6 +23,11 @@ GLOBAL_LIST_INIT(autodrobe_costumes_items, list(
 	/obj/item/clothing/under/costume/lobster = 1,
 	/obj/item/clothing/suit/snowman = 1,
 	/obj/item/clothing/head/snowman = 1,
+	/obj/item/clothing/suit/hooded/corpus = 1,
+	/obj/item/clothing/suit/hooded/corpus/c = 1,
+	/obj/item/clothing/suit/hooded/pyramidhead = 1,
+	/obj/item/clothing/under/dress/wedding = 1,
+	/obj/item/clothing/under/suit/error = 1,
 ))
 
 GLOBAL_LIST_INIT(autodrobe_supernatural_items, list(
@@ -42,6 +47,8 @@ GLOBAL_LIST_INIT(autodrobe_supernatural_items, list(
 	/obj/item/clothing/head/wizard/fake = 3,
 	/obj/item/staff = 3,
 	/obj/item/staff/broom = 3,
+	/obj/item/clothing/neck/cloak/binary = 3,
+	/obj/item/clothing/suit/flatwoods = 3,
 ))
 
 GLOBAL_LIST_INIT(autodrobe_entretainers_items, list(
@@ -51,6 +58,10 @@ GLOBAL_LIST_INIT(autodrobe_entretainers_items, list(
 	/obj/item/clothing/under/rank/civilian/clown/orange = 3,
 	/obj/item/clothing/under/rank/civilian/clown/purple = 3,
 	/obj/item/clothing/under/rank/civilian/clown/sexy = 3,
+	/obj/item/clothing/under/rank/civilian/clown/clussy_outfit = 3,
+	/obj/item/clothing/gloves/clussy_gloves = 3,
+	/obj/item/clothing/head/clussy_wig = 3,
+	/obj/item/clothing/shoes/clown_shoes/clussy_heels = 3,
 	/obj/item/clothing/under/rank/civilian/clown/jester = 1,
 	/obj/item/clothing/head/jester = 1,
 	/obj/item/clothing/under/rank/civilian/clown/jester/harley = 3,
@@ -94,6 +105,18 @@ GLOBAL_LIST_INIT(autodrobe_fancy_items, list(
 	/obj/item/clothing/head/bowler = 1,
 	/obj/item/cane = 3,
 	/obj/item/clothing/under/dress/sundress = 3,
+	/obj/item/clothing/mask/balaclava/breath/hijab = 4,
+	/obj/item/clothing/head/turban = 4,
+	/obj/item/clothing/suit/baroness = 3,
+	/obj/item/clothing/suit/baroness/ladyballat = 3,
+	/obj/item/clothing/under/suit/pencil = 3,
+	/obj/item/clothing/under/suit/pencil/black_really = 3,
+	/obj/item/clothing/under/suit/pencil/charcoal = 3,
+	/obj/item/clothing/under/suit/pencil/navy = 3,
+	/obj/item/clothing/under/suit/pencil/burgandy = 3,
+	/obj/item/clothing/under/suit/pencil/checkered = 3,
+	/obj/item/clothing/under/suit/pencil/tan = 3,
+	/obj/item/clothing/under/suit/pencil/green = 3,
 ))
 
 GLOBAL_LIST_INIT(autodrobe_animal_items, list(
@@ -109,7 +132,9 @@ GLOBAL_LIST_INIT(autodrobe_animal_items, list(
 GLOBAL_LIST_INIT(autodrobe_service_items, list(
 	/obj/item/clothing/accessory/waistcoat = 4,
 	/obj/item/clothing/under/costume/maid = 1,
+	/obj/item/clothing/suit/maid = 3,
 	/obj/item/clothing/under/rank/civilian/janitor/maid = 1,
+	/obj/item/storage/box/fancy_maid_kit = 3,
 	/obj/item/clothing/suit/suspenders = 2,
 	/obj/item/clothing/suit/suspenders/suspenders_white = 4,
 	/obj/item/clothing/under/suit/waiter = 4,
@@ -128,6 +153,9 @@ GLOBAL_LIST_INIT(autodrobe_other_items, list(
 	/obj/item/clothing/glasses/heat = 3,
 	/obj/item/clothing/mask/gas/cyborg = 3,
 	/obj/item/clothing/mask/joy = 3,
+	/obj/item/clothing/under/costume/loincloth/sensor = 1,
+	/obj/item/clothing/under/costume/loincloth/cloth/sensor = 1,
+	/obj/item/clothing/under/vaultsuit = 3,
 ))
 
 GLOBAL_LIST_INIT(autodrobe_premium_items, list(
@@ -142,6 +170,8 @@ GLOBAL_LIST_INIT(autodrobe_premium_items, list(
 	/obj/item/clothing/shoes/roman = 3,
 	/obj/item/skub = 1,
 	/obj/item/clothing/under/suit/tuxedo = 1,
+	/obj/item/clothing/under/suit/tuxedo = 1,
+	/obj/item/clothing/under/suit/carpskin = 1,
 ))
 
 GLOBAL_LIST_INIT(autodrobe_contraband_items, list(

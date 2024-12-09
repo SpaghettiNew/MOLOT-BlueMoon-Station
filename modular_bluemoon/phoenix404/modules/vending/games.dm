@@ -14,6 +14,7 @@
 				/obj/item/toy/cards/deck/cas/black = 3,
 				/obj/item/toy/cards/deck/tarot = 3,
 				/obj/item/toy/cards/deck/unum = 3,
+				/obj/item/toy/cards/deck/tarot = 3,
 			),
 		),
 		list(
@@ -54,7 +55,7 @@
 	)
 	premium = list(
 		/obj/item/disk/holodisk = 5,
-		/obj/item/rcl = 2,
+//		/obj/item/rcl = 2,
 		/obj/item/airlock_painter = 1,
 		/obj/item/melee/skateboard/pro = 3,
 		/obj/item/melee/skateboard/hoverboard = 1,

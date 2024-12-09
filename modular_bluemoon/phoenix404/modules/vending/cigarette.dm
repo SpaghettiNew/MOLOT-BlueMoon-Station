@@ -18,7 +18,9 @@
 		/obj/item/lighter = 3,
 		/obj/item/clothing/mask/vape = 5,
 		/obj/item/storage/fancy/cigarettes/cigpack_shadyjims = 1,
-		/obj/item/clothing/mask/cigarette/dart = 3
+		/obj/item/clothing/mask/cigarette/dart = 3,
+		/obj/item/storage/fancy/cigarettes/cigpack_mindbreaker = 3,
+		/obj/item/storage/fancy/cigarettes/cigpack_cannabis = 3,
 	)
 	premium = list(
 		/obj/item/storage/fancy/cigarettes/cigpack_robustgold = 3,

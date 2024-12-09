@@ -4574,6 +4574,7 @@
 #include "modular_bluemoon\phoenix404\modules\vending\medical.dm"
 #include "modular_bluemoon\phoenix404\modules\vending\medical_wall.dm"
 #include "modular_bluemoon\phoenix404\modules\vending\megaseed.dm"
+#include "modular_bluemoon\phoenix404\modules\vending\modularapc.dm"
 #include "modular_bluemoon\phoenix404\modules\vending\nutrimax.dm"
 #include "modular_bluemoon\phoenix404\modules\vending\plasmaresearch.dm"
 #include "modular_bluemoon\phoenix404\modules\vending\robotics.dm"

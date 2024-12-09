@@ -8,6 +8,7 @@
 		/obj/item/clothing/glasses/meson/engine = 2,
 		/obj/item/clothing/glasses/welding = 3,
 		/obj/item/multitool = 4,
+		/obj/item/construction/rcd/loaded/upgraded = 3,
 		/obj/item/grenade/chem_grenade/smart_metal_foam = 10,
 		/obj/item/geiger_counter = 5,
 		/obj/item/stock_parts/cell/high = 10,
@@ -16,6 +17,7 @@
 		/obj/item/electronics/airalarm = 10,
 		/obj/item/electronics/firealarm = 10,
 		/obj/item/electronics/firelock = 10,
+		/obj/item/assembly/control = 10,
 		/obj/item/rcd_ammo = 3,
 	)
 	contraband = list(

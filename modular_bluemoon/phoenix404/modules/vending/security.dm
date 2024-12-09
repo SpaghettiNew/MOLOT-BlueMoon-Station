@@ -20,17 +20,34 @@
 		/obj/item/evidencebag = 20,
 		/obj/item/secbat = 5,
 		/obj/item/fee_terminal = 10,
+		/obj/item/ammo_box/magazine/e45/taser = 10,
+		/obj/item/device/hailer = 10,
+		/obj/item/clothing/suit/armor/vest/peacekeeper = 5,
+		/obj/item/clothing/suit/armor/vest/metrocop = 2,
+		/obj/item/clothing/head/helmet/metrocop = 2,
+		/obj/item/storage/bag/security = 5,
+		/obj/item/clothing/head/helmet/blueshirt = 5,
+		/obj/item/clothing/head/helmet/hephaestus = 5,
+		/obj/item/clothing/under/rank/security/officer/blueshirt = 5,
+		/obj/item/clothing/suit/armor/vest/blueshirt = 5,
+		/obj/item/armorkit/security = 5,
+		/obj/item/armorkit/security/helmet = 5,
 	)
 	contraband = list(
 		/obj/item/clothing/glasses/sunglasses = 2,
 		/obj/item/storage/fancy/donut_box = 2,
 		/obj/item/storage/belt/sabre/secbelt = 1,
+		/obj/item/storage/belt/slut = 5,
+		/obj/item/bdsm_whip/ridingcrop = 3,
+		/obj/item/electropack/shockcollar/security = 5,
+		/obj/item/clothing/suit/armor/vest/stripper = 5,
+		/obj/item/clothing/suit/armor/vest/stripper/bikini = 5,
+		/obj/item/clothing/neck/petcollar/locked/security = 5,
+		/obj/item/grenade/secbed = 3,
+		/obj/item/dildo/flared/gigantic = 3,
 	)
 	premium = list(
 		/obj/item/coin/antagtoken = 1,
-		/obj/item/clothing/head/helmet/blueshirt = 4, //BlueMoon edit
-		/obj/item/clothing/suit/armor/vest/blueshirt = 4, //BlueMoon edit
-		/obj/item/clothing/under/rank/security/officer/blueshirt = 4, //BlueMoon edit
 		/obj/item/clothing/gloves/tackler = 4, //BlueMoon edit
 		/obj/item/grenade/stingbang = 4, //BlueMoon edit
 		/obj/item/ssword_kit = 1,

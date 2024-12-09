@@ -130,6 +130,7 @@
 		/obj/item/reagent_containers/food/drinks/soda_cans/sol_dry = 10,
 		/obj/item/reagent_containers/food/drinks/soda_cans/shamblers = 5,
 		/obj/item/reagent_containers/food/drinks/soda_cans/buzz_fuzz = 5,
+		/obj/item/reagent_containers/glass/beaker/waterbottle/large = 5,
 	)
 	contraband = list(
 		/obj/item/reagent_containers/food/drinks/soda_cans/thirteenloko = 6
