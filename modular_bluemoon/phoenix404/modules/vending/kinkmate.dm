@@ -127,8 +127,25 @@
 				/obj/item/storage/fancy/jellybean_pack = 5,
 			),
 		),
+		list(
+			"name" = "Miscellaneous",
+			"icon" = "question",
+			"products" = list(
+				/obj/item/clothing/underwear/briefs/panties/maebari = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_heart = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_sheer = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_mini = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_sheer_mini = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_vag_sheer = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_vag_mini = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_vag = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_anal = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_vag_x = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_vag_bandaid = 3,
+				/obj/item/clothing/underwear/briefs/panties/maebari/maebari_anal_bandaid = 3,
+			),
+		),
 	)
-
 	contraband = list(
 		/obj/item/clothing/under/misc/keyholesweater = 2,
 		/obj/item/clothing/under/misc/stripper/mankini = 2,

@@ -13,6 +13,7 @@
 				/obj/item/seeds/apple = 3,		//	 Apple
 				/obj/item/seeds/banana = 3,		//	 Banana
 				/obj/item/seeds/cherry = 3,		//	 Cherry
+				/obj/item/seeds/cocoapod = 3,  	//	 Cocoa Pod
 				/obj/item/seeds/coconut = 3,	//	 Coconut
 				/obj/item/seeds/grape = 3,		//	 Grape
 				/obj/item/seeds/lemon = 3,		//	 Lemon
@@ -37,8 +38,10 @@
 				/obj/item/seeds/garlic = 3,			//	 Garlic
 				/obj/item/seeds/onion = 3,			//	 Onion
 				/obj/item/seeds/peas = 3,			//	 Peas
+				/obj/item/seeds/peanutseed = 3,  	//	 Peanut Seed
 				/obj/item/seeds/potato = 3,			//	 Potato
 				/obj/item/seeds/pumpkin = 3,		//	 Pumpkin
+				/obj/item/seeds/soya = 3,  			//	 Soya
 				/obj/item/seeds/tomato = 3,			//	 Tomato
 				/obj/item/seeds/whitebeet = 3		//	 White Beet
 			),
@@ -51,7 +54,6 @@
 				/obj/item/seeds/rose = 3,		//	 Rose
 				/obj/item/seeds/poppy = 3,		//	 Poppy
 				/obj/item/seeds/sunflower = 3,	//	 Sunflower
-				/obj/item/seeds/chanter = 3		//	 Chanter
 			),
 		),
 
@@ -61,13 +63,11 @@
 			"products" = list(
 				/obj/item/seeds/aloe = 3,			//	 Aloe
 				/obj/item/seeds/ambrosia = 3,		//	 Ambrosia
-				/obj/item/seeds/cocoapod = 3,  		//	 Cocoa Pod
 				/obj/item/seeds/coffee = 3,  		//	 Coffee
 				/obj/item/seeds/cotton = 3,  		//	 Cotton
+				/obj/item/seeds/chanter = 3		//	 Chanter
 				/obj/item/seeds/grass = 3,  		//	 Grass
-				/obj/item/seeds/peanutseed = 3,  	//	 Peanut Seed
 				/obj/item/seeds/replicapod = 3,  	//	 Replica Pod
-				/obj/item/seeds/soya = 3,  			//	 Soya
 				/obj/item/seeds/sugarcane = 3,  	//	 Sugarcane
 				/obj/item/seeds/tea = 3,  			//	 Tea
 				/obj/item/seeds/tobacco = 3,  		//	 Tobacco
