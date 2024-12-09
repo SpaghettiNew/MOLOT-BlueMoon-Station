@@ -65,7 +65,7 @@
 				/obj/item/seeds/ambrosia = 3,		//	 Ambrosia
 				/obj/item/seeds/coffee = 3,  		//	 Coffee
 				/obj/item/seeds/cotton = 3,  		//	 Cotton
-				/obj/item/seeds/chanter = 3		//	 Chanter
+				/obj/item/seeds/chanter = 3,		//	 Chanter
 				/obj/item/seeds/grass = 3,  		//	 Grass
 				/obj/item/seeds/replicapod = 3,  	//	 Replica Pod
 				/obj/item/seeds/sugarcane = 3,  	//	 Sugarcane
@@ -73,7 +73,7 @@
 				/obj/item/seeds/tobacco = 3,  		//	 Tobacco
 				/obj/item/seeds/tower = 3,			//	 Tower
 				/obj/item/seeds/wheat/rice = 3,		//	 Rice
-				/obj/item/seeds/wheat = 3  			//	 Wheat
+				/obj/item/seeds/wheat = 3,  			//	 Wheat
 			),
 		),
 
