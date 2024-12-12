@@ -527,7 +527,7 @@
 /obj/structure/sign/flag/terragov{
 	pixel_y = 32
 	},
-/obj/effect/mob_spawn/human/fugitive/spacepol{
+/obj/effect/mob_spawn/human/solfed/diplomacy/secret_service{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -1542,7 +1542,7 @@
 	dir = 1;
 	icon_state = "delivery_red"
 	},
-/obj/machinery/suit_storage_unit/ftu_combat,
+/obj/machinery/suit_storage_unit/sol_combat,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/inteq_forgotten_vault)
 "jo" = (
@@ -3191,7 +3191,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/suit_storage_unit/syndicate/inteq,
+/obj/machinery/suit_storage_unit/sol_combat/elite,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "se" = (
@@ -4948,9 +4948,7 @@
 /obj/structure/sign/flag/terragov{
 	pixel_y = 32
 	},
-/obj/effect/mob_spawn/human/fugitive/spacepol{
-	dir = 8
-	},
+/obj/effect/mob_spawn/human/solfed/diplomacy/secret_service,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "CJ" = (
