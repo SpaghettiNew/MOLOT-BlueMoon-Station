@@ -49,6 +49,7 @@
 				/obj/item/clothing/head/helmet/space/deprivation_helmet = 5,
 				/obj/item/clothing/glasses/sunglasses/blindfold = 4,
 				/obj/item/clothing/mask/muzzle = 4,
+				/obj/item/stack/sticky_tape/black = 4,
 				/obj/item/storage/box/chastity_cage = 6,
 				/obj/item/storage/box/chastity_cage/flat = 3,
 				/obj/item/storage/box/chastity_cage/metal = 3,
@@ -68,6 +69,8 @@
 				/obj/item/clothing/shoes/dominaheels = 10,
 				/obj/item/clothing/gloves/latex_gloves = 10,
 				/obj/item/clothing/gloves/latexsleeves = 3,
+				/obj/item/bdsm_whip = 3,
+				/obj/item/bdsm_whip/ridingcrop = 3,
 			),
 		),
 

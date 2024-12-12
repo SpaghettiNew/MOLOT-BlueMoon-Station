@@ -242,6 +242,8 @@ GLOBAL_LIST_EMPTY(vending_machines_to_restock)
 		onstation = circuit.onstation //if it was constructed outside mapload, sync the vendor up with the circuit's var so you can't bypass price requirements by moving / reconstructing it off station.
 	if(onstation && !onstation_override)
 		GLOB.vending_machines_to_restock += src //We need to keep track of the final onstation vending machines so we can keep them restocked.
+	Radio = new /obj/item/radio(src)
+	Radio.listening = 0
 
 /obj/machinery/vending/Destroy()
 	QDEL_NULL(wires)
@@ -1300,7 +1302,7 @@ GLOBAL_LIST_EMPTY(vending_products)
 
 ///Crush the mob that the vending machine got thrown at
 /obj/machinery/vending/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
-	if(isliving(hit_atom))
+	if(isliving(hit_atom) && !tilted) //  BLUEMOON EDIT вендор не падает когда он уже упал.
 		tilt(fatty=hit_atom)
 	return ..()
 
