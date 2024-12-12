@@ -1213,6 +1213,9 @@
 	dir = 1;
 	icon_state = "delivery_red"
 	},
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "hm" = (
@@ -13808,7 +13811,7 @@ sz
 sz
 sz
 sz
-RV
+sz
 sz
 sz
 gb
@@ -14033,18 +14036,18 @@ sz
 sz
 sz
 sz
+sz
+sz
+sz
+ng
+ng
+lO
+lO
+ye
+ye
 RV
 sz
-sz
-ng
-ng
-lO
-lO
-ye
-ye
-sz
-sz
-sz
+RV
 gb
 gb
 gb
