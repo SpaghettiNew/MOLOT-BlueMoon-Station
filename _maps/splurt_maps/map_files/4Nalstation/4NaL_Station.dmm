@@ -20624,7 +20624,7 @@
 /area/service/janitor)
 "gxy" = (
 /obj/machinery/power/apc/highcap/five_k{
-	areastring = "/area/command/bridge";
+	areastring = "/area/command/bridge/upper";
 	name = "Bridge APC";
 	pixel_y = -23
 	},
