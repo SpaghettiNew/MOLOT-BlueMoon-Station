@@ -25,7 +25,7 @@
 		/area/shuttle/ruin,
 		/area/shuttle/abandoned,
 		// Solars have lattices over space turfs, and are a valid placement for space turfs in a station area.
-		///area/station/solars,
+		/area/solars, // TODO: Надо переделать на ТГ /area/station/solar...
 		///area/station/engineering/atmos/space_catwalk,
 	))
 	var/list/all_turfs
