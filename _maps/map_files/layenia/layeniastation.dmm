@@ -25,11 +25,6 @@
 	icon_state = "floor_plate"
 	},
 /area/hallway/primary/central)
-"aar" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/table,
-/turf/open/openspace,
-/area/service/theater)
 "aat" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/nitrous_input{
 	dir = 8
@@ -11331,11 +11326,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/solars/aux/port)
-"bKj" = (
-/obj/effect/spawner/lootdrop/maintenance,
-/obj/effect/spawner/lootdrop/syndicate_present,
-/turf/open/openspace,
-/area/service/theater)
 "bKm" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
 /obj/structure/cable/yellow{
@@ -273819,7 +273809,7 @@ tMN
 tMN
 hQa
 kHh
-bKj
+ait
 gLx
 ait
 lMj
@@ -275104,7 +275094,7 @@ nnm
 xBl
 ffs
 kHh
-aar
+bym
 ibi
 ait
 ait
