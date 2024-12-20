@@ -36796,17 +36796,12 @@
 	name = "Incinerator Output Pump"
 	},
 /turf/open/space,
-/area/maintenance/disposal/incinerator)
+/area/space/nearstation)
 "cpP" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /turf/open/space,
 /area/space/nearstation)
-"cpQ" = (
-/obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
-/turf/open/space,
-/area/maintenance/disposal/incinerator)
 "cpR" = (
 /obj/machinery/door/airlock/abandoned{
 	name = "Observatory Access"
@@ -37229,7 +37224,7 @@
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
 /turf/open/space,
-/area/maintenance/aft)
+/area/space/nearstation)
 "csg" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -37254,12 +37249,6 @@
 	},
 /turf/open/space,
 /area/space/nearstation)
-"csm" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/on{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
-/area/maintenance/aft)
 "csn" = (
 /obj/structure/transit_tube/horizontal,
 /turf/open/space,
@@ -39298,7 +39287,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/maintenance/disposal/incinerator)
+/area/space/nearstation)
 "czK" = (
 /turf/closed/wall,
 /area/commons/vacant_room/office)
@@ -41589,7 +41578,7 @@
 	},
 /obj/structure/lattice/catwalk,
 /turf/open/space,
-/area/engineering/atmos)
+/area/space/nearstation)
 "dbd" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -41974,7 +41963,7 @@
 /obj/structure/lattice,
 /obj/structure/lattice/catwalk,
 /turf/open/space,
-/area/security/detectives_office/evidence_room)
+/area/space/nearstation)
 "dlc" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -49776,7 +49765,7 @@
 	},
 /obj/effect/landmark/navigate_destination/minisat_access_ai,
 /turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
+/area/space/nearstation)
 "iiW" = (
 /turf/open/floor/wood,
 /area/maintenance/bar)
@@ -51227,7 +51216,7 @@
 /obj/structure/lattice,
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/security/detectives_office/evidence_room)
+/area/space/nearstation)
 "jdO" = (
 /obj/structure/table/wood,
 /obj/item/clothing/under/misc/burial,
@@ -55166,7 +55155,7 @@
 	},
 /obj/effect/landmark/navigate_destination/minisat_access_ai,
 /turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
+/area/space/nearstation)
 "lCF" = (
 /obj/machinery/smartfridge/organ,
 /turf/open/floor/plasteel/white,
@@ -61328,7 +61317,7 @@
 	},
 /obj/effect/landmark/navigate_destination/minisat_access_ai,
 /turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
+/area/space/nearstation)
 "pta" = (
 /obj/structure/grille/broken,
 /turf/open/floor/plating,
@@ -68576,7 +68565,7 @@
 	},
 /obj/effect/landmark/navigate_destination/minisat_access_ai,
 /turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
+/area/space/nearstation)
 "tYR" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -69592,7 +69581,7 @@
 	},
 /obj/effect/landmark/navigate_destination/minisat_access_ai,
 /turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
+/area/space/nearstation)
 "uJx" = (
 /obj/machinery/door/window,
 /turf/open/floor/wood,
@@ -112917,10 +112906,10 @@ ckg
 cmb
 yan
 cpO
-cpQ
-cpQ
-cpQ
-cpQ
+csc
+csc
+csc
+csc
 czJ
 aaf
 aoV
@@ -115232,7 +115221,7 @@ cbQ
 cnF
 cot
 csc
-csm
+czJ
 aaa
 aaa
 aaa

@@ -65726,10 +65726,6 @@
 /obj/item/stack/sheet/bone,
 /turf/open/floor/carpet/royalblue,
 /area/edina/crew_quarters/store/pet)
-"qAF" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
-/turf/open/space/basic,
-/area/engineering/atmos)
 "qBf" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
@@ -76117,7 +76113,7 @@ aub
 aAv
 atB
 aAv
-qAF
+aub
 aAv
 atB
 aAv

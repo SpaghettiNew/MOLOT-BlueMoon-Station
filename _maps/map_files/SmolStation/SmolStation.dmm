@@ -2641,10 +2641,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
-"bKJ" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/security/brig)
 "bKN" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -3199,7 +3195,7 @@
 	icon_state = "1-8"
 	},
 /turf/open/space/basic,
-/area/security/prison)
+/area/space/nearstation)
 "cfz" = (
 /obj/machinery/telecomms/server/presets/command,
 /turf/open/floor/circuit/telecomms/mainframe,
@@ -4724,10 +4720,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/command/bridge)
-"dji" = (
-/obj/structure/lattice,
-/turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
 "djw" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Engineering Maintenance";
@@ -5565,13 +5557,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
-"dSd" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/turf/open/space/basic,
-/area/security/prison)
 "dSq" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -5984,7 +5969,7 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/window/reinforced,
 /turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
+/area/space/nearstation)
 "egZ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -6110,13 +6095,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/medical/virology)
-"elH" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/open/space/basic,
-/area/security/prison)
 "ent" = (
 /obj/structure/rack,
 /obj/item/storage/box/teargas{
@@ -6265,7 +6243,7 @@
 	icon_state = "1-8"
 	},
 /turf/open/space/basic,
-/area/security/prison)
+/area/space/nearstation)
 "euR" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/light{
@@ -10783,7 +10761,7 @@
 	level = 1
 	},
 /turf/open/space/basic,
-/area/security/prison)
+/area/space/nearstation)
 "hQP" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -19838,7 +19816,7 @@
 	icon_state = "1-4"
 	},
 /turf/open/space/basic,
-/area/security/prison)
+/area/space/nearstation)
 "osA" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -21030,13 +21008,6 @@
 /mob/living/simple_animal/opossum/poppy,
 /turf/open/floor/plasteel,
 /area/engineering/main)
-"ppe" = (
-/obj/structure/lattice,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
 "ppU" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -22636,13 +22607,6 @@
 	dir = 1
 	},
 /area/hallway/secondary/entry)
-"qBw" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/space/basic,
-/area/security/prison)
 "qBM" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
@@ -23398,7 +23362,7 @@
 	pixel_y = 5
 	},
 /turf/open/space/basic,
-/area/security/prison)
+/area/space/nearstation)
 "riO" = (
 /turf/open/floor/plasteel/yellowsiding/corner,
 /area/commons/dorms)
@@ -24957,7 +24921,7 @@
 	dir = 8
 	},
 /turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
+/area/space/nearstation)
 "sCS" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/virology{
@@ -26863,7 +26827,7 @@
 	dir = 4
 	},
 /turf/open/space/basic,
-/area/security/brig)
+/area/space/nearstation)
 "tSG" = (
 /obj/structure/table,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -30165,7 +30129,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/space/basic,
-/area/security/prison)
+/area/space/nearstation)
 "wsP" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
@@ -31946,7 +31910,7 @@
 	pixel_y = 1
 	},
 /turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
+/area/space/nearstation)
 "xzN" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -32067,13 +32031,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
-"xCI" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/lattice,
-/turf/open/space,
-/area/ai_monitored/turret_protected/aisat)
 "xDt" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 26
@@ -32960,13 +32917,6 @@
 	},
 /turf/open/floor/plating,
 /area/science/xenobiology)
-"ykU" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/space/basic,
-/area/security/prison)
 "ylE" = (
 /obj/item/radio/intercom{
 	pixel_x = -28
@@ -39036,14 +38986,14 @@ aHj
 iyM
 aHj
 aHj
-dSd
-qBw
-qBw
-qBw
-qBw
-qBw
-qBw
-elH
+row
+qKc
+qKc
+qKc
+qKc
+qKc
+qKc
+hSy
 aHj
 aHj
 aHj
@@ -39292,7 +39242,7 @@ yeY
 aHj
 iyM
 aHj
-dSd
+row
 etl
 jBz
 enX
@@ -39301,7 +39251,7 @@ qyL
 qBM
 jBz
 wsq
-elH
+hSy
 aHj
 aHj
 aHj
@@ -39548,7 +39498,7 @@ tfa
 yeY
 aHj
 iyM
-dSd
+row
 etl
 enX
 qyL
@@ -39559,7 +39509,7 @@ nFA
 fIu
 qFd
 wsq
-elH
+hSy
 aHj
 aHj
 aHj
@@ -39804,7 +39754,7 @@ qRu
 tfa
 yeY
 aHj
-dSd
+row
 etl
 enX
 aiz
@@ -39817,7 +39767,7 @@ xev
 iLg
 qFd
 wsq
-elH
+hSy
 aHj
 aHj
 aHj
@@ -40060,7 +40010,7 @@ aHj
 qRu
 tfa
 yeY
-dSd
+row
 etl
 enX
 aiz
@@ -40074,7 +40024,7 @@ tiz
 xev
 iLg
 qFd
-ykU
+ygw
 riA
 aHj
 aHj
@@ -40317,7 +40267,7 @@ aHj
 qRu
 tfa
 yeY
-ykU
+ygw
 jBz
 hrN
 nle
@@ -40574,7 +40524,7 @@ aHj
 aHj
 qXU
 aHj
-ykU
+ygw
 enX
 vaj
 sGQ
@@ -41345,7 +41295,7 @@ aHj
 aHj
 qXU
 aHj
-ykU
+ygw
 iLg
 iYK
 seY
@@ -41602,7 +41552,7 @@ aHj
 qRu
 qHT
 yeY
-ykU
+ygw
 jBz
 jQB
 nle
@@ -41860,7 +41810,7 @@ qRu
 qHT
 yeY
 wsq
-elH
+hSy
 iLg
 qFd
 nle
@@ -41873,7 +41823,7 @@ tiz
 mZH
 enX
 aiz
-ykU
+ygw
 hQN
 aHj
 aHj
@@ -42118,7 +42068,7 @@ qHT
 yeY
 aHj
 wsq
-elH
+hSy
 iLg
 qFd
 ncj
@@ -42129,7 +42079,7 @@ tiz
 mZH
 enX
 aiz
-dSd
+row
 etl
 aHj
 aHj
@@ -42376,7 +42326,7 @@ yeY
 aHj
 iyM
 wsq
-elH
+hSy
 iLg
 qyL
 vRp
@@ -42385,7 +42335,7 @@ pjd
 psk
 qyL
 aiz
-dSd
+row
 etl
 aHj
 aHj
@@ -42634,14 +42584,14 @@ aHj
 iyM
 aHj
 wsq
-elH
+hSy
 jBz
 iLg
 qyL
 qyL
 aiz
 jBz
-dSd
+row
 etl
 aHj
 aHj
@@ -42892,12 +42842,12 @@ iyM
 aHj
 aHj
 wsq
-qBw
-qBw
-qBw
-qBw
-qBw
-qBw
+qKc
+qKc
+qKc
+qKc
+qKc
+qKc
 etl
 aHj
 aHj
@@ -61686,7 +61636,7 @@ inK
 gdJ
 inK
 kea
-bKJ
+oqW
 kea
 vzy
 vzy
@@ -61943,8 +61893,8 @@ cvc
 dnD
 vYt
 kea
-bKJ
-bKJ
+oqW
+oqW
 vzy
 ssd
 mxC
@@ -62200,8 +62150,8 @@ inK
 csh
 xBH
 kea
-bKJ
-bKJ
+oqW
+oqW
 vzy
 jCo
 mbi
@@ -62457,8 +62407,8 @@ qqv
 joM
 hUy
 kea
-bKJ
-bKJ
+oqW
+oqW
 vzy
 nua
 iJU
@@ -88793,7 +88743,7 @@ xzm
 xzm
 xzm
 xzm
-xCI
+dMv
 xzm
 xzm
 xzm
@@ -89043,14 +88993,14 @@ nie
 riW
 xzm
 xzm
-xCI
+dMv
 aHj
 aHj
 aHj
 aHj
 aHj
 aHj
-dji
+fXv
 aHj
 aHj
 aHj
@@ -89060,7 +89010,7 @@ wwr
 bNo
 xgV
 xgV
-xCI
+dMv
 xzm
 xzm
 xzm
@@ -89300,7 +89250,7 @@ nie
 jWr
 aHj
 aHj
-dji
+fXv
 aHj
 eKW
 eKW
@@ -89317,13 +89267,13 @@ bgO
 bNo
 aHj
 aHj
-dji
+fXv
 aHj
 aHj
 aHj
 aHj
 aHj
-dji
+fXv
 aHj
 aHj
 aHj
@@ -92384,7 +92334,7 @@ whG
 jWr
 aHj
 aHj
-dji
+fXv
 aHj
 eKW
 eKW
@@ -92401,13 +92351,13 @@ qmv
 bNo
 aHj
 aHj
-dji
+fXv
 aHj
 aHj
 aHj
 aHj
 aHj
-dji
+fXv
 aHj
 aHj
 aHj
@@ -92641,14 +92591,14 @@ whG
 gHI
 wDL
 wDL
-ppe
+oef
 aHj
 aHj
 aHj
 aHj
 aHj
 aHj
-dji
+fXv
 xgV
 aHj
 aHj
@@ -92658,13 +92608,13 @@ ruw
 pBr
 aHj
 xgV
-ppe
+oef
 wDL
 wDL
 wDL
 wDL
 wDL
-ppe
+oef
 wDL
 wDL
 wDL
@@ -92905,7 +92855,7 @@ wDL
 wDL
 wDL
 wDL
-ppe
+oef
 wDL
 wDL
 wDL

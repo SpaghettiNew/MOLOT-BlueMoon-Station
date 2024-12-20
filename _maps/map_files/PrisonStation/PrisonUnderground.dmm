@@ -223,7 +223,7 @@
 "aqO" = (
 /obj/structure/window/reinforced/fulltile,
 /obj/structure/grille,
-/turf/open/space/basic,
+/turf/open/floor/circuit/off,
 /area/ruin/lavaland/powered/animal_hospital)
 "arU" = (
 /turf/closed/wall/mineral/iron,
