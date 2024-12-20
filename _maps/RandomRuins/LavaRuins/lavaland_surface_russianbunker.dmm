@@ -609,7 +609,7 @@
 /obj/item/restraints/handcuffs,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/pod,
-/area/ruin/space/has_grav/russianbunker
+/area/ruin/space/has_grav/russianbunker)
 "zK" = (
 /mob/living/simple_animal/hostile/russian/ranged/trooper{
 	name = "Валерьевич"
