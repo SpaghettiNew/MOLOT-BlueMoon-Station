@@ -9092,7 +9092,9 @@
 /turf/open/floor/plating/rust,
 /area/ruin/lavaland/powered)
 "dms" = (
-/obj/effect/spawner/structure/window/reinforced/tinted/electrochromatic,
+/obj/effect/spawner/structure/window/reinforced/tinted/electrochromatic{
+	electrochromatic_id = "sauna_room"
+	},
 /obj/structure/grille,
 /obj/structure/cable,
 /turf/open/floor/plasteel,

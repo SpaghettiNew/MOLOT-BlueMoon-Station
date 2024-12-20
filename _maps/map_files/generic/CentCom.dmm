@@ -2876,11 +2876,6 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/centcom/control)
-"akY" = (
-/obj/structure/lattice,
-/obj/structure/lattice/catwalk,
-/turf/open/space/transit/centcom,
-/area/space)
 "akZ" = (
 /obj/structure/fluff/railing/corner{
 	dir = 8
@@ -24610,7 +24605,7 @@
 /obj/structure/lattice,
 /obj/structure/lattice,
 /obj/structure/lattice/catwalk,
-/turf/open/space/transit/centcom,
+/turf/open/space/basic,
 /area/space)
 "oEh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -89598,8 +89593,8 @@ gBa
 gBa
 gBa
 atE
-akY
-akY
+atE
+atE
 alI
 alI
 alI
