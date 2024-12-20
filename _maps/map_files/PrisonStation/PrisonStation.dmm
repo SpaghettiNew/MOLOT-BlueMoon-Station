@@ -44350,7 +44350,7 @@
 /area/service/library)
 "pMl" = (
 /obj/machinery/turretid{
-	control_area = "/area/ai_monitored/turret_protected/aisat/hallway";
+	control_area = "/area/awaymission";
 	name = "Chamber Hallway Turret Control";
 	pixel_x = 32;
 	pixel_y = -24;
@@ -60776,6 +60776,10 @@
 	},
 /turf/open/floor/plating/rust,
 /area/ruin/lavaland/powered)
+"vQp" = (
+/obj/effect/landmark/blobstart,
+/turf/open/floor/plating/rust,
+/area/maintenance/aft)
 "vQz" = (
 /obj/structure/bed/shadow{
 	dir = 4
@@ -113199,7 +113203,7 @@ oBT
 wIm
 eEh
 xZq
-xZq
+vQp
 dIN
 dIN
 cMz

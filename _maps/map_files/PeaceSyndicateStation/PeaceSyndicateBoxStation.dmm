@@ -28521,8 +28521,6 @@
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/mineral/plastitanium,
 /area/medical/genetics)
-"bvv" = (
-)
 "bvy" = (
 /obj/machinery/camera{
 	c_tag = "Genetics Research";
@@ -107783,7 +107781,7 @@ cNd
 cNd
 cNd
 cNd
-bvv
+aaa
 "}
 (159,1,1) = {"
 cNd
