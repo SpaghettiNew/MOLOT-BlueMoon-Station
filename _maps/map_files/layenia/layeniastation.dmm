@@ -3826,6 +3826,13 @@
 	},
 /turf/open/floor/wood,
 /area/maintenance/starboard)
+"aFL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "aFM" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 9
@@ -11324,6 +11331,11 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/solars/aux/port)
+"bKj" = (
+/obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/spawner/lootdrop/syndicate_present,
+/turf/open/openspace,
+/area/service/theater)
 "bKm" = (
 /obj/machinery/atmospherics/pipe/simple/purple/visible,
 /obj/structure/cable/yellow{
@@ -24337,13 +24349,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/ce)
-"dDY" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/space/nearstation)
 "dEf" = (
 /obj/machinery/light{
 	dir = 1
@@ -43820,6 +43825,13 @@
 	icon_state = "darkfull_whole_alt"
 	},
 /area/maintenance/aft)
+"gzb" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "gzg" = (
 /obj/effect/turf_decal/loading_area{
 	color = "#55391A";
@@ -45329,8 +45341,6 @@
 /area/ruin/space)
 "gLx" = (
 /obj/structure/lattice,
-/obj/effect/spawner/lootdrop/syndicate_present,
-/obj/effect/spawner/lootdrop/maintenance,
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -53142,13 +53152,6 @@
 	icon_state = "floor_trim"
 	},
 /area/security/brig)
-"hRp" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 5
-	},
-/turf/open/space/basic,
-/area/space/nearstation)
 "hRv" = (
 /obj/effect/turf_decal/loading_area{
 	icon_state = "line";
@@ -64095,6 +64098,13 @@
 /obj/machinery/telecomms/processor/preset_three,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
+"jtA" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "jtH" = (
 /turf/closed/wall/r_wall,
 /area/commons/toilet)
@@ -115576,13 +115586,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
-"qSk" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/space/basic,
-/area/space/nearstation)
 "qSu" = (
 /obj/structure/railing,
 /obj/structure/closet/emcloset,
@@ -202187,7 +202190,7 @@ qie
 wfk
 gyt
 gyt
-qSk
+gzb
 rwh
 rFt
 gnJ
@@ -202444,8 +202447,8 @@ qie
 wfk
 gyt
 boa
-hRp
-dDY
+aFL
+jtA
 tgI
 tgI
 jxo
@@ -273816,7 +273819,7 @@ tMN
 tMN
 hQa
 kHh
-ait
+bKj
 gLx
 ait
 lMj

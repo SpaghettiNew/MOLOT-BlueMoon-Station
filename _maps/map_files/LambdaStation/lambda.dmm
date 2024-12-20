@@ -73093,7 +73093,7 @@
 /area/command/heads_quarters/hos)
 "vKZ" = (
 /obj/machinery/power/apc{
-	areastring = "/area/maintenance/dormitory";
+	areastring = "/area/maintenance/aft";
 	name = "Dormitory Maintenance APC";
 	pixel_y = -28
 	},

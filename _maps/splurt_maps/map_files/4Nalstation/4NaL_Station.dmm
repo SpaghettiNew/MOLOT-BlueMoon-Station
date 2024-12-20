@@ -19418,7 +19418,7 @@
 /area/medical/medbay/central)
 "gdt" = (
 /turf/open/space/basic,
-/area/maintenance/prison/lower)
+/area/space/nearstation)
 "gdB" = (
 /obj/machinery/computer/cryopod{
 	dir = 8;
@@ -20870,7 +20870,7 @@
 /obj/structure/cable,
 /obj/structure/lattice/catwalk,
 /turf/open/space/transparent/openspace,
-/area/medical/break_room)
+/area/space/nearstation)
 "gBt" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -45847,10 +45847,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/courtroom)
-"ovj" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/transparent/openspace,
-/area/medical/break_room)
 "ovu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/structure/disposalpipe/segment{
@@ -237124,7 +237120,7 @@ jxx
 iXT
 mjc
 gli
-ovj
+dPt
 hgP
 hgP
 hgP
@@ -237382,7 +237378,7 @@ iXT
 mjc
 xNW
 gBq
-ovj
+dPt
 hgP
 hgP
 hgP

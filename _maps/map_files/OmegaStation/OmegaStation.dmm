@@ -16822,7 +16822,7 @@
 	network = list("ss13","engine")
 	},
 /obj/machinery/power/apc{
-	areastring = "/area/engineering/break_room";
+	areastring = "/area/engineering/lobby";
 	name = "Engineering Foyer APC";
 	pixel_y = -26
 	},
@@ -25526,10 +25526,6 @@
 	icon_state = "panelscorched"
 	},
 /area/maintenance/starboard)
-"aXc" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space,
-/area/asteroid/nearstation)
 "aXd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -74416,7 +74412,7 @@ aaa
 aaa
 aaa
 aaa
-aXc
+sNM
 aac
 aac
 aad
@@ -74673,7 +74669,7 @@ aaa
 aaa
 aaa
 aaa
-aXc
+sNM
 aac
 aac
 aad

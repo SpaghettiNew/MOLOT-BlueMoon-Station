@@ -64303,7 +64303,7 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/plasticflaps,
 /obj/structure/fans/tiny,
-/turf/open/space/basic,
+/turf/open/floor/plasteel,
 /area/engineering/secure_construction)
 "jur" = (
 /obj/effect/turf_decal/tile/yellow{
